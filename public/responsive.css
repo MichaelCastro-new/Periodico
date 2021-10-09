@@ -1,0 +1,393 @@
+
+@media screen and (max-width: 1400px){
+    .nav-container{
+        height: 10px;
+        width: 1000px;
+        background-color: rgb(104, 120, 172);
+        margin-top: 20px;
+    
+    }
+    .menu{
+        width: 1000px;
+        height: 30px;
+        border:3px solid rgb(104, 120, 172);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+   
+   }
+ 
+   .imagen{
+    width: 650px;
+    height: 500px;
+    filter:  grayscale(40%);
+    }
+    #principal {
+        margin-right: 100px;
+        margin-left: 100px;
+        width: 64%;
+        float: left;
+        background-color:whitesmoke;
+    }
+    .texto-opinion{
+        font-size: 14px;
+    }
+  
+    .contenido-slaider > img {
+		width: 180px;
+        height: 180px;
+	}
+
+    #contenedor {
+        text-align: left;
+        width: 100%;
+        margin: auto;
+       }
+       
+       #lateral {
+        margin-right: 100px;
+        width: 20%;  
+        background-color: whitesmoke; 
+        float:right; 
+        border-left: 5px solid white;
+       }
+       
+       #principal {
+        margin-left: 150px;
+        width: 40%;
+        float: left;
+        background-color:whitesmoke;
+       }
+       /* Para limpiar los floats */
+       .clearfix:after {
+         content: "";
+         /* display: table; */
+         clear: both;
+       }
+
+       .fuentes{
+        margin-left: 50px;
+        border: 1px solid grey;
+        padding: 20px;
+        text-align: center;
+        cursor: pointer;
+       
+    }
+    .respo-1{
+        flex-wrap:wrap;
+    }
+    .contenedor-2{
+        display: none;
+    }
+    .contenedor-3{
+        margin-top: 100px;
+        display: block;
+    }
+    .contenedor-2-1{
+        display: none;
+    }
+    .remove{
+        display: none;
+    }
+    
+
+   
+}
+
+
+
+@media screen and (max-width: 1500px) {
+    .img-1-1{
+        width: 100%;
+        max-width:200px;
+        height: 100%;
+        max-height:200px;
+        margin: 20px;
+    }
+
+}
+
+
+@media screen and (max-width: 1000px) {
+
+    .nav-container{
+        height: 10px;
+        width: 800px;
+        background-color: rgb(104, 120, 172);
+        margin-top: 20px;
+    
+    }
+    .menu{
+        width: 800px;
+        height: 30px;
+        border:3px solid rgb(104, 120, 172);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+   
+   }
+ 
+    #principal {
+        margin-right: 100px;
+        margin-left: 100px;
+        width: 64%;
+        float: left;
+        background-color:whitesmoke;
+    }
+    .texto-opinion{
+        font-size: 14px;
+    }
+  
+    .contenido-slaider > img {
+		width: 180px;
+        height: 180px;
+	}
+
+    #contenedor {
+        text-align: left;
+        width: 100%;
+        margin: auto;
+       }
+       
+       #lateral {
+        margin-right: 100px;
+        width: 20%;  
+        background-color: whitesmoke; 
+        float:right; 
+        border-left: 5px solid white;
+       }
+       
+       #principal {
+        margin-left: 150px;
+        width: 40%;
+        float: left;
+        background-color:whitesmoke;
+       }
+       /* Para limpiar los floats */
+       .clearfix:after {
+         content: "";
+         /* display: table; */
+         clear: both;
+       }
+
+       .fuentes{
+        margin-left: 50px;
+        border: 1px solid grey;
+        padding: 20px;
+        text-align: center;
+        cursor: pointer;
+       
+    }
+    .respo-1{
+        flex-wrap:wrap;
+    }
+    .contenedor-2{
+        display: none;
+    }
+    .contenedor-3{
+        margin-top: 100px;
+        display: block;
+    }
+    .contenedor-2-1{
+        display: none;
+    }
+    .remove{
+        display: none;
+    }
+    
+
+}
+
+
+@media screen and (max-width: 1130px) {
+    .img-1-1{
+        display: none;
+    }
+    .nav-container{
+        height: 10px;
+        width: 1000px;
+        background-color: rgb(104, 120, 172);
+        margin-top: 20px;
+    
+    }
+    .menu{
+        width: 900px;
+        height: 30px;
+        border:3px solid rgb(104, 120, 172);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+   
+   }
+   .imagen{
+    width: 550px;
+    height: 400px;
+    filter:  grayscale(40%);
+    }
+    #principal {
+        margin-right: 100px;
+        margin-left: 100px;
+        width: 64%;
+        float: left;
+        background-color:whitesmoke;
+    }
+    .texto-opinion{
+        font-size: 14px;
+    }
+  
+    .contenido-slaider > img {
+		width: 180px;
+        height: 180px;
+	}
+
+    #contenedor {
+        text-align: left;
+        width: 100%;
+        margin: auto;
+       }
+       
+       #lateral {
+        margin-right: 100px;
+        width: 25%;  
+        background-color: whitesmoke; 
+        float:right; 
+        border-left: 5px solid white;
+       }
+       
+       #principal {
+        margin-left: 150px;
+        width: 40%;
+        float: left;
+        background-color:whitesmoke;
+       }
+       /* Para limpiar los floats */
+       .clearfix:after {
+         content: "";
+         /* display: table; */
+         clear: both;
+       }
+
+       .fuentes{
+        margin-left: 50px;
+        border: 1px solid grey;
+        padding: 20px;
+        text-align: center;
+        cursor: pointer;
+       
+    }
+    .respo-1{
+        flex-wrap:wrap;
+    }
+    .firs-text {
+        margin-right: 0px;
+        margin-bottom: 50px;
+    }
+}
+
+
+@media screen and (max-width: 1157px) {
+    .imagen{
+        width: 500px;
+        height: 300px;
+        filter:  grayscale(40%);
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .imagen{
+        width: 450px;
+        height: 300px;
+        filter:  grayscale(40%);
+    }
+    .contenedor-3{
+        width: 70%;
+        margin:0 auto;
+        margin-top: 100px;
+        display: block;
+    }
+}
+
+
+
+@media screen and (max-width: 1218px) {
+    .remove{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1433px) {
+    .img-2-2{
+        width: 350px;
+        height: 260px;
+    }
+    .img-1-1{
+        width: 350px;
+        height: 260px;
+    }
+    .texto-main-2{
+    display: column;
+    column-count: 6;
+    column-gap: 10px;
+    column-rule: 1px solid #fff ;
+    margin-left: 200px;
+    margin-right: 50px;
+}
+.texto-main{
+    display: column;
+    column-count: 6;
+    column-gap: 10px;
+    column-rule: 1px solid #fff ;
+    margin-right: 200px;
+    margin-left: 50px;
+}
+
+}
+
+@media screen and (max-width: 900px){
+	.contenido-slaider > img {
+		width: 200px;
+        height: 200px;
+	}
+	.contenido-slaider > div{
+		width: 40%;
+	}
+	.contenido-slaider h2{
+		font-size: 23px;
+	}
+}
+
+@media screen and (max-width: 600px){
+    .contenido-slaider > img {
+		width: 150px;
+        height: 150px;
+	}
+	.contenido-slaider {
+		flex-direction: column-reverse;
+	}
+	.contenido-slaider > div{
+		width: 80%;
+	}
+}
+
+
